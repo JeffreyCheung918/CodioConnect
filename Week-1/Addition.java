@@ -4,6 +4,10 @@ public class Addition{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
+        System.out.print("Enter the name: ");
+        String name = input.next();
+        System.out.printf("Hello %s%n", name);
+
         System.out.print("Enter the first integer");
         int number1 = input.nextInt();
 
